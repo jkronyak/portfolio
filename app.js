@@ -16,7 +16,8 @@ app.set('view engine', 'handlebars');
 
 configRoutes(app);
 
-app.listen(3000, () => { 
+app.listen(process.env.PORT || 3000, () => {
+
 	console.log('Server is running!');
 	console.log('Routes running on http://localhost:3000');
 });
