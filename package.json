@@ -1,0 +1,24 @@
+{
+  "name": "jaredkronyakportfolio",
+  "version": "1.0.0",
+  "description": "A website featuring my education, projects, and more",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkronyak/portfolio.git"
+  },
+  "author": "Jared Anthony Kronyak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkronyak/portfolio/issues"
+  },
+  "homepage": "https://github.com/jkronyak/portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7"
+  }
+}
