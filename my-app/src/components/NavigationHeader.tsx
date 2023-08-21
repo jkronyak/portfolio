@@ -12,6 +12,7 @@ const NavigationHeader = () => {
                 <Link to="/experience">Experience</Link>
                 <Link to="/courses">Courses</Link>
             </nav>
+			<hr></hr>
         </div>
     )
 }

@@ -1,0 +1,9 @@
+.footer-div { 
+	padding: 16px;
+	padding-top: 128px;
+}
+
+img { 
+	max-width: 64px;
+	max-height: 64px;
+}

@@ -1,8 +1,26 @@
 #headshot {
-    max-width: 300px;
-    max-height: 300px;
-    border-color: black;
+    max-width: 512px;
+    max-height: 512px;
+    /* border-color: black;
     border-width: 4px;
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 5px; */
+	box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+}
+
+.home-div { 
+	margin-left: 128px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 5%;
+}
+
+#home-text-div { 
+	margin-top: 208px;
+	margin-left: auto;
+	margin-right: 128px;
+}
+
+#home-text-div >h1 { 
+	font-size: 4rem;
 }
