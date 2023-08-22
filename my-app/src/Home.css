@@ -1,6 +1,6 @@
 #headshot {
-    max-width: 512px;
-    max-height: 512px;
+    max-width: 45%;
+    max-height: 45%;
     /* border-color: black;
     border-width: 4px;
     border-style: solid;
@@ -21,6 +21,10 @@
 	margin-right: 128px;
 }
 
-#home-text-div >h1 { 
+#home-text-div > h1 { 
 	font-size: 4rem;
+}
+
+#home-text-div > h2 { 
+	color: rgb(153, 153, 153);
 }

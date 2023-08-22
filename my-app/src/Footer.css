@@ -7,3 +7,8 @@ img {
 	max-width: 64px;
 	max-height: 64px;
 }
+
+.footer-div > a { 
+	padding: 16px;
+	padding-top: 128px;
+}
