@@ -1,6 +1,7 @@
 #headshot {
+	object-fit: cover;
     max-width: 45%;
-    max-height: 45%;
+    max-height: 100%;
     /* border-color: black;
     border-width: 4px;
     border-style: solid;

@@ -2,9 +2,10 @@
   text-align: center;
   background-color: #1f2b36;
   /* position: absolute; */
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   color: white;
+  min-height: 100vh;
   
 }
 
@@ -14,10 +15,14 @@
 }
 
 .App-body {
+	display: grid;
+	grid-template-columns:100%;
+
 	background-color: #35424E;
 	width: 66%;
 	margin: auto;
-	height: 100%;
+	padding: 0;
+	min-height: 100vh;
 	box-shadow: 0 0 5px 1px rgb(0, 0, 0);
 	
 }
@@ -50,4 +55,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.hidden-span {
+	color: #90a8ff;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
