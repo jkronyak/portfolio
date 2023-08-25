@@ -14,6 +14,7 @@ const NavigationHeader = () => {
                 <Link className={pathname === "/projects" ? 'active' : 'inactive'} to="/projects">Projects</Link>
                 <Link className={pathname === "/experience" ? 'active' : 'inactive'} to="/experience">Experience</Link>
                 <Link className={pathname === "/courses" ? 'active' : 'inactive'} to="/courses">Courses</Link>
+				<Link className={pathname === "/about" ? 'active' : 'inactive'} to="/">About</Link>
             </nav>
 			<hr></hr>
         </div>

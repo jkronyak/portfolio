@@ -1,31 +1,63 @@
 #headshot {
-	object-fit: cover;
-    max-width: 45%;
-    max-height: 100%;
-    /* border-color: black;
+  object-fit: cover;
+  max-width: 45%;
+  max-height: 100%;
+  /* border-color: black;
     border-width: 4px;
     border-style: solid;
     border-radius: 5px; */
-	box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+  box-shadow: 0 0 5px 1px rgb(0, 0, 0);
 }
 
-.home-div { 
-	margin-left: 128px;
-	display: flex;
-	flex-direction: row;
-	margin-top: 5%;
+.home-div {
+  margin-left: 144px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
 }
 
-#home-text-div { 
-	margin-top: 208px;
-	margin-left: auto;
-	margin-right: 128px;
+#home-text-div {
+  margin-top: 208px;
+  margin-left: auto;
+  margin-right: 144px;
 }
 
-#home-text-div > h1 { 
-	font-size: 4rem;
+#home-text-div > h1 {
+  font-size: 4rem;
+  padding-bottom: 4px;
+  text-align: center;
+  overflow: hidden;
+  line-height: 1;
 }
 
-#home-text-div > h2 { 
-	color: rgb(153, 153, 153);
+#home-text-div > h2 {
+  color: rgb(153, 153, 153);
+
+  padding-bottom: 4px;
+  text-align: center;
+  overflow: hidden;
+  line-height: 1;
+}
+
+#home-text-div > h1 span {
+  display: block;
+  animation: transition 1.25s cubic-bezier(0.77, 0, 0.175, 1) 0.25s;
+  animation-fill-mode: both;
+}
+
+#home-text-div > h2 span {
+  display: block;
+  animation: transition 1.25s cubic-bezier(0.77, 0, 0.175, 1) 0.25s;
+  animation-fill-mode: both;
+}
+
+@keyframes transition {
+  0% {
+	visibility: visible;
+    transform: translate(0, 100%);
+  }
+  100% {
+	visibility: visible;
+    transform: translate(0, 0);
+  }
 }
