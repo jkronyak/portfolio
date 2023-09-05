@@ -14,9 +14,7 @@ const Home = () => {
 					<span>Jared Kronyak</span>
 				</h1>
 				<h2>
-					<span>
-						Software Engineer
-					</span>
+					<span>Software Engineer</span>
 				</h2>
 			</div>
         </div>
