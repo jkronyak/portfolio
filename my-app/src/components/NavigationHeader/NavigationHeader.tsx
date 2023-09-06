@@ -1,8 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
-import '../NavigationHeader.css';
+import './NavigationHeader.scss';
 
 const NavigationHeader = () => {
 	const { pathname } = useLocation();

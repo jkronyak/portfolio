@@ -3,13 +3,15 @@ import React from 'react';
 
 
 
-import "../Home.css"
+import "./Home.scss"
 
 const Home = () => {
     return (
         <div className='home-div'>
-			<img id='headshot' src={"./img/square_color.jpg"} alt='Headshot'></img>
-			<div id='home-text-div'>
+			<div className='headshot-div'>
+				<img id='headshot' src={"./img/square_color.jpg"} alt='Headshot'></img>
+			</div>
+			<div className='home-text-div'>
             	<h1>
 					<span>Jared Kronyak</span>
 				</h1>

@@ -1,0 +1,29 @@
+@use 'styles/colors';
+
+.nav-header-div { 
+    background-color: colors.$body-primary;
+	padding: 16px;
+}
+.nav-header-div > nav { 
+	padding-bottom: 8px;
+}
+
+.nav-header-div > nav > a {
+	text-decoration: none;
+    font-size: 24px;
+    padding-left: 24px;
+	padding-right: 24px;
+    max-width: 90%;
+}
+
+a.inactive {
+    color: colors.$font-secondary;
+}
+
+a.active {
+    color: colors.$font-primary;
+}
+
+a.inactive:hover { 
+	color: colors.$font-hover;
+}

@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Home from './components/Home';
-import NavigationHeader from './components/NavigationHeader';
-import Footer from './components/Footer';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Courses from './components/Courses';
+import Home from './pages/Home/Home';
+import NavigationHeader from './components/NavigationHeader/NavigationHeader';
+import Footer from './components/Footer/Footer';
+import Projects from './pages/Projects/Projects';
+import Experience from './pages/Experience/Experience';
+import Courses from './pages/Courses/Courses';
 
 function App() {
   return (

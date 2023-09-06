@@ -1,20 +1,18 @@
-import { Project } from "../utils/projectData";
+import { Project } from "../../utils/projectData";
 
-import '../ProjectCard.css'
+import SkillsList from '../SkillsList/SkillsList';
+
+import './ProjectCard.scss'
 
 const ProjectCard = ({ project }: { project: Project}) => { 
 	return(
 		<div className='card-div'>
 			<h2>{project.title}</h2>
 			<hr/>
-			<p>{project.url}</p>
+			<a href={project.url}>{project.url}</a>
 			<hr/>
 			<p>{project.description}</p>
-			{
-				project.skills.map((skill) => { 
-					return <p>{skill}</p>
-				})
-			}
+			<SkillsList skills={project.skills}/>
 		</div>
 	)
 }

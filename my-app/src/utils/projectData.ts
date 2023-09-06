@@ -6,6 +6,11 @@ export type Project = {
 	skills: string[]
 }
 
+export const skillList: string[] = [
+	"JavaScript", "Node.js", "HTML5", "CSS", "React", "Express", "MongoDB", "Webpack", "MaterialUI", "Docker", "GitHub Actions", "AWS",
+	"Redis", "Firebase", "Redux"
+]
+
 export const projectList: Project[] = [
 	{
 		title: "Gamer Spot",
