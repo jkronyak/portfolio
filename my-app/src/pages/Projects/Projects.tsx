@@ -1,5 +1,5 @@
 import { projectList } from "../../utils/projectData";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from "components/ProjectCard";
 
 import './Projects.scss';
 

@@ -1,6 +1,6 @@
 import { Project } from "../../utils/projectData";
 
-import SkillsList from '../SkillsList/SkillsList';
+import SkillsList from "components/SkillsList";
 
 import './ProjectCard.scss'
 
