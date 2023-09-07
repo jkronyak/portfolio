@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { projectList, skillList } from "../../utils/projectData";
 import ProjectCard from "components/ProjectCard";
-import SkillBar from "components/SkillBar/SkillBar";
+import SkillBar from "components/SkillBar";
 
 import './Projects.scss';
 
