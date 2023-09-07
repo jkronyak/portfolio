@@ -2,13 +2,13 @@ import './SkillsList.scss';
 
 import SkillChip from "components/SkillChip";
 
-const SkillsList = ({skills}: {skills: string[]}) => { 
+const SkillsList = ({skills, selectedSkills}: {skills: string[], selectedSkills: string[]}) => { 
 
 	return(
 		<div className='skill-list-div'>
 		{
 			skills.map((skill) => { 
-				return (<SkillChip skill={skill} isSelected={false}/>)
+				return (<SkillChip key={skill} skill={skill} isSelected={selectedSkills.includes(skill)} onSelect={null}/>)
 			})
 		}
 		</div>

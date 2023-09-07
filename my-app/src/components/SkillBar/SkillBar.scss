@@ -1,0 +1,21 @@
+@use 'styles/_colors';
+
+.skill-bar-div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 8px;
+}
+
+.skill-bar-container { 
+	border-radius: 1px;
+	box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+	padding: 8px;
+	margin-left: 64px;
+	margin-right: 64px;
+	margin-bottom: 32px;
+	margin-top: 16px;
+	justify-content: center;
+	background-color: colors.$body-secondary;
+}

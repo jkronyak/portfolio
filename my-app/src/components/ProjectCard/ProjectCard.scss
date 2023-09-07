@@ -2,11 +2,12 @@
 
 .card-div { 
 	padding: 16px;
-	border-radius: 5px;
+	border-radius: 1px;
 	box-shadow: 0 0 5px 1px rgb(0, 0, 0);
 	background-color: colors.$body-secondary;
 }
 
 .card-div > a { 
 	color: colors.$font-primary;
+	word-break: break-all;
 }
