@@ -27,7 +27,7 @@ const Projects = () => {
 			<div className='projects-grid-div'>
 				{
 					projectList.map((proj) => {
-						return <ProjectCard key={proj.title} project={proj} selectedSkills={selectedSkills}/>
+						return <ProjectCard key={proj.title} project={proj} selectedSkills={selectedSkills} onSelect={handleSkillSelect}/>
 					})
 				}
 			</div>

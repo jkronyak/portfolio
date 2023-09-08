@@ -4,7 +4,7 @@ import SkillsList from "components/SkillsList";
 
 import './ProjectCard.scss'
 
-const ProjectCard = ({ project, selectedSkills }: { project: Project, selectedSkills: string[]}) => { 
+const ProjectCard = ({ project, selectedSkills, onSelect }: { project: Project, selectedSkills: string[], onSelect: Function}) => { 
 	return(
 		<div className='card-div'>
 			<h2>{project.title}</h2>
@@ -12,7 +12,7 @@ const ProjectCard = ({ project, selectedSkills }: { project: Project, selectedSk
 			<a href={project.url}>{project.url}</a>
 			<hr/>
 			<p>{project.description}</p>
-			<SkillsList skills={project.skills} selectedSkills={selectedSkills}/>
+			<SkillsList skills={project.skills} selectedSkills={selectedSkills} onSelect={onSelect}/>
 		</div>
 	)
 }
