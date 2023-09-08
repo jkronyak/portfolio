@@ -1,5 +1,5 @@
 import './SkillBar.scss';
-import { skillList } from 'utils/projectData';
+import { skillList } from 'utils/data';
 import SkillChip from 'components/SkillChip';
 
 const SkillBar = ({ onSelect, selectedSkills }: { onSelect: Function, selectedSkills: string[] }) => {

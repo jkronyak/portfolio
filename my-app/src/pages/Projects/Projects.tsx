@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { projectList, skillList } from "../../utils/projectData";
+import { projectList } from "../../utils/data";
 import ProjectCard from "components/ProjectCard";
 import SkillBar from "components/SkillBar";
 

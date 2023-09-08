@@ -1,4 +1,4 @@
-import { Project } from "../../utils/projectData";
+import { Project } from "../../utils/types";
 
 import SkillsList from "components/SkillsList";
 
@@ -6,7 +6,7 @@ import './ProjectCard.scss'
 
 const ProjectCard = ({ project, selectedSkills, onSelect }: { project: Project, selectedSkills: string[], onSelect: Function}) => { 
 	return(
-		<div className='card-div'>
+		<div className='project-card-div'>
 			<h2>{project.title}</h2>
 			<hr/>
 			<a href={project.url}>{project.url}</a>

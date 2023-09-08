@@ -1,0 +1,26 @@
+@use "styles/_colors";
+
+.experience-card-div { 
+	padding: 16px;
+	border-radius: 1px;
+	box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+	background-color: colors.$body-secondary;
+	margin-bottom: 16px;
+}
+
+.experience-card-sub { 
+	display: inline-flex;
+	align-items: center;
+}
+
+.experience-card-sub > * { 
+	margin: 8px;
+}
+
+.resp-list { 
+	text-align: left;
+}
+
+.resp-list > li { 
+	margin: 8px;
+}
