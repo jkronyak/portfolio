@@ -12,4 +12,9 @@ export type Experience = {
 	endDate: string,
 	location: string,
 	responsibilities: string[]
+};
+
+export type Course = { 
+	title: string,
+	code: string
 }

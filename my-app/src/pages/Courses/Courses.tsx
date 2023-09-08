@@ -1,9 +1,13 @@
-import React from 'react';
+import CourseTable from 'components/CourseTable';
+
+import { courseList } from 'utils/data';
+
+import './Courses.scss';
 
 const Courses = () => { 
     return (
-        <div>
-            <h1>Courses</h1>
+        <div className='courses-div'>
+            <CourseTable courses={courseList.reverse()}/>
         </div>
     )
 }

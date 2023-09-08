@@ -1,6 +1,6 @@
 .footer-div { 
 	padding: 16px;
-	padding-top: 128px;
+	margin-top: auto;
 }
 
 img { 
@@ -10,5 +10,8 @@ img {
 
 .footer-div > a { 
 	padding: 16px;
-	padding-top: 128px;
+}
+
+.footer-div img { 
+	padding-top: 16px;
 }

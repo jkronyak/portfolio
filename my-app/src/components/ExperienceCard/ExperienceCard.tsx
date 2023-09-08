@@ -6,7 +6,7 @@ const ExperienceCard = ({ experience }: {experience: Experience}) => {
 	return(
 		<div className='experience-card-div'>
 			<h2>{experience.title}</h2>
-			<p>{experience.employer}</p>
+			<h3>{experience.employer}</h3>
 			<hr/>
 				<p>{experience.startDate} - {experience.endDate}</p>
 				<p>{experience.location}</p>

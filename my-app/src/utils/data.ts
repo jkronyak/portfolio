@@ -1,4 +1,4 @@
-import {Project, Experience} from './types';
+import { Project, Experience, Course } from './types';
 
 export const projectList: Project[] = [
 	{
@@ -70,6 +70,77 @@ export const experienceList: Experience[] = [
 			"Operate as a key-holding member of the store's Front-End Department to authorize certain point-of-sale system functions."
 		]
 	},
+]
+
+export const courseList: Course[] = [ 
+	{
+		code: "CS 284",
+		title: "Data Structures"
+	},
+	{
+		code: "CS 385",
+		title: "Algorithms"
+	},
+	{
+		code: "CS 383",
+		title: "Computer Organization and Programming"
+	},
+	{
+		code: "CS 392",
+		title: "Systems Programming"
+	},
+	{
+		code: "CS 334",
+		title: "Theory of Computation"
+	},
+	{
+		code: "CS 396",
+		title: "Security Privacy and Society"
+	},
+	{
+		code: "CS 496",
+		title: "Principles of Programming Languages"
+	},
+	{
+		code: "CS 442",
+		title: "Database Management Systems"
+	},
+	{
+		code: "CS 424",
+		title: "Senior Design II"
+	},
+	{
+		code: "CS 423",
+		title: "Senior Design I"
+	},
+	{
+		code: "CS 541",
+		title: "Artificial Intelligence"
+	},
+	{
+		code: "CS 583",
+		title: "Deep Learning"
+	},
+		{
+		code: "CS 546",
+		title: "Web Programming I"
+	},
+	{
+		code: "CS 554",
+		title: "Web Programming II"
+	},
+	{
+		code: "CS 545",
+		title: "Human Computer Interaction"
+	},
+	{
+		code: "CS 555",
+		title: "Agile Methods for Software Development"
+	},
+	{
+		code: "CS 590",
+		title: "DevOps Principles and Practices"
+	}
 ]
 
 const uniqueSkills: string[] = [];
