@@ -1,9 +1,9 @@
 import './SkillChip.scss';
 
 
-const SkillChip = ({skill, isSelected = false, onSelect } : { skill: string, isSelected: boolean, onSelect: Function | null}) => { 
+const SkillChip = ({skill, isSelected = false, onSelect } : { skill: string, isSelected: boolean, onSelect: Function}) => { 
 	return(
-		<div className={`chip-div ${isSelected ? "selected-skill" : ""}`} onClick={() => onSelect ? onSelect(skill) : null} onPointerEnter={() => onSelect ? onSelect(skill) : null}>
+		<div className={`chip-div ${isSelected ? "selected-skill" : ""}`} onClick={() => onSelect}>
 			<span>{skill}</span>
 		</div>
 	)
