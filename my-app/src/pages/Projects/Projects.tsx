@@ -10,7 +10,8 @@ const Projects = () => {
 
 	const [selectedSkills, setSelectedSkills] = useState<string[]>([]);
 	
-	const handleSkillSelect = (skill: string) => { 
+	const handleSkillSelect = (skill: string) => {
+		console.log(skill);
 		let idx = selectedSkills.indexOf(skill);
 		if(idx > -1) {
 			console.log("already selected");
