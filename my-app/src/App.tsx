@@ -20,7 +20,7 @@ function App() {
 				</header>
 				<div className='App-content'>
 					<Routes>
-						<Route path="/" element={<Home/>} />
+						<Route path="/*" element={<Home/>} />
 						<Route path="/projects" element={<Projects/>} />
 						<Route path="/experience" element={<Experience/>} />
 						<Route path="/courses" element={<Courses/>} />

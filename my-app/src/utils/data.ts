@@ -36,7 +36,7 @@ export const projectList: Project[] = [
 export const experienceList: Experience[] = [ 
 	{
 		title: "Course Assistant",
-		employer: "Stevens Insitute of Technology",
+		employer: "Stevens Institute of Technology",
 		startDate: "August 2022",
 		endDate: "July 2022",
 		location: "Hoboken, NJ",
