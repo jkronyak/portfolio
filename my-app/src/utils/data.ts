@@ -10,7 +10,7 @@ export const projectList: Project[] = [
 	{
 		title: "Rock Buddy",
 		url: "https://github.com/jkronyak/rock-buddy",
-		description: "A web application developed for CS 554: Web Programming II. Rock Buddy is a place for rock music fans to learn more about artists and their work. The site full integrates with the Spotify API to allow music listening and playlist creation without opening Spotify. Rock Buddy also features sharing and chat features to allow rock lovers to talk with each other about their favorite music.",
+		description: "A web application developed for CS 554: Web Programming II. Rock Buddy is a place for rock music fans to learn more about artists and their work. The site fully integrates with the Spotify API to allow music listening and playlist creation without opening Spotify. Rock Buddy also features sharing and chat features to allow rock lovers to talk with each other about their favorite music.",
 		skills: ["JavaScript", "Node", "HTML5", "CSS", "React", "Express", "Redis", "Firebase", "MaterialUI", "Redux", "React Router" ]
 	},
 	{
